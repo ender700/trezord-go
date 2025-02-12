@@ -1,4 +1,4 @@
-FROM golang:1.18
+FROM golang:1.24rc3
 
 RUN mkdir /trezord-go
 WORKDIR /trezord-go
